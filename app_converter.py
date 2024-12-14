@@ -12,7 +12,7 @@ while True:
     nameTemp = ["Celsius", "Fahrenheit", "Kelvin"]
     nameLeng = ["Pies", "Metros", "Kilometros", "Millas"]
 
-    op = input('Opciones de conversion: 1.Temperatura 2.Longitud 3.Historial de conversion 4.Salir:\n');
+    op = input('\nOpciones de conversion: 1.Temperatura 2.Longitud 3.Historial de conversion 4.Salir:\n');
 
     if(op not in("1", "2", "3", "4")):
         print(f"{op} no es una opcion valida");
@@ -26,7 +26,6 @@ while True:
 
     elif(op == "3"):
         showHistory()
-        break;
 
     elif(op == "4"):
         print("Bye, hasta luego.")
